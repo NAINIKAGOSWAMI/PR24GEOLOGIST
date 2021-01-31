@@ -1,7 +1,7 @@
-class Rubber {
+class Sand {
     constructor(x, y,r) {
       var options = {
-          'restitution':0.3,
+          'restitution':1.3,
           'friction':5,
           'density':1
       }
@@ -18,7 +18,7 @@ class Rubber {
       rectMode(CENTER);
       stroke("cyan");
       strokeWeight(4);
-      fill("pink");
+      fill("purple");
       ellipse(0, 0, this.r, this.r);
       pop();
     }

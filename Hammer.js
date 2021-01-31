@@ -20,9 +20,9 @@ class Hammer {
       translate(pos.x, pos.y);
       rotate(angle);
       rectMode(CENTER);
-      stroke("blue");
+      stroke("white");
       strokeWeight(4);
-      fill("green");
+      fill("black");
       rect(0, 0, this.width, this.height);
       pop();
     }
